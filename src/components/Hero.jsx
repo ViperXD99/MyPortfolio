@@ -17,13 +17,13 @@ const Hero = () => {
   };
   return (
     <div className="flex flex-col items-center md:flex-row px-clamp-padding mt-[4rem] md:mt-[8rem]  scroll-smooth ">
-      <div className="flex flex-col md:min-w-[60rem]">
+      <div className="flex-grow order-2 md:order-1 text-center md:text-left">
         <p className=" text-fluid-2 font-medium">Hello, I'm</p>
         <h1 className=" text-fluid-2 font-medium transition ease-in-out delay-150 hover:md:scale-125 duration-300 ... cursor-pointer">
           Sandaru Perera
         </h1>
         <TypeWriterEffect/>
-        <div className="flex flex-row mt-line-margin gap-4">
+        <div className="flex flex-row mt-line-margin gap-4 justify-center md:justify-start ">
           <button className="p-3 border border-black rounded-[40px]  transition ease-in-out delay-150 hover:md:scale-110 duration-300 ...">
             Download CV
           </button>
@@ -31,7 +31,7 @@ const Hero = () => {
             Contact Info
           </button>
         </div>
-        <div className="flex flex-row mt-2 gap-4">
+        <div className="flex flex-row mt-line-margin gap-4 justify-center md:justify-start + ml-4">
           <div className=" rounded-full w-[2rem] h-[2rem] overflow-hidden object-cover cursor-pointer">
             <img
               src={linkedin}
@@ -50,14 +50,14 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className=" rounded-full w-[30rem] h-[30rem] overflow-hidden object-cover ml-navbar-item-margin">
+     
+      <div className=" rounded-full w-pro-pic-width h-pro-pic-height overflow-hidden object-cover ml-navbar-item-margin flex-shrink order-1 md:order-2">
         <img
           src={profile}
           alt="Sandaru"
           className="w-full h-full object-cover"
         />
       </div>
-      
     </div>
   );
 };
