@@ -20,7 +20,7 @@ export default {
       },
       padding: {
        // 'clamp-padding': 'clamp(1.13rem, calc(-3.70rem + 24.11vw), 18.00rem)',
-        'clamp-padding': 'clamp(1.25rem, calc(-4.16rem + 18.23vw), 25.00rem);',
+        'clamp-padding': 'clamp(1.25rem, calc(-9.92rem + 17.45vw), 18.00rem)',
 
       },
       margin:{
@@ -28,11 +28,12 @@ export default {
         'line-margin': 'clamp(1.25rem, calc(0.97rem + 0.96vw), 2.50rem)',
       },
       width:{
-
+        'pro-pic-width': 'clamp(12.50rem, calc(8.51rem + 13.43vw), 30.00rem)',
       },
       height:{
-
+        'pro-pic-height': 'clamp(12.50rem, calc(8.51rem + 13.43vw), 30.00rem)',
       },
+      //animation for the type writer text
       animation: {
         text: 'text 5s ease infinite',
       },
