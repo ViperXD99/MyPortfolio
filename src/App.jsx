@@ -1,34 +1,31 @@
 import React, { useRef , useEffect } from "react";
-import { Navbar, Hero, About } from "./components";
+import { Navbar, Hero, Projects, Services } from "./components";
 
 
 const App = () => {
 
 
   const aboutRef = useRef(null);
-  const experienceRef = useRef(null);
+  const servicesRef = useRef(null);
   const projectsRef = useRef(null);
   const contactRef = useRef(null);
 
   return (
-    <main className="m-4 relative">
+    <main className="relative px-4">
       <Navbar
         aboutRef={aboutRef}
-        experienceRef={experienceRef}
+        servicesRef={servicesRef}
         projectsRef={projectsRef}
         contactRef={contactRef}
       />
-      <section className="">
+      <section ref={aboutRef}>
         <Hero />
       </section>
-      <section ref={aboutRef}>
-       <About/>
+      <section ref={servicesRef} className="bg-slate-900">
+        <Services/>
       </section>
-      <section ref={experienceRef} className="py-20">
-        <p>experienceRef</p>
-      </section>
-      <section ref={projectsRef} className="py-20">
-        <p>projectsRef</p>
+      <section ref={projectsRef} className="bg-slate-900 mt-6">
+        <Projects/>
       </section>
       <section ref={contactRef} className="py-20">
         <p>contactRef</p>
