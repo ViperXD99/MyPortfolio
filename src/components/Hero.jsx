@@ -20,7 +20,7 @@ const Hero = () => {
       "https://www.linkedin.com/in/sandaru-perera-277668258/";
   };
   return (
-    <div className="flex flex-col justify-center items-center  md:flex-row  max-container h-screen  scroll-smooth  ">
+    <div className="flex flex-col justify-center items-center  md:flex-row  max-container min-h-screen scroll-smooth  ">
       <div className="flex-grow order-2 md:order-1 text-center md:text-left md:min-w-[35rem]">
         <p className=" text-fluid-2 font-medium " data-aos="fade-right">
           Hello, I'm
@@ -76,7 +76,7 @@ const Hero = () => {
       </div>
 
       <div
-        className=" rounded-full w-[10rem] h-[10rem] md:w-pro-pic-width md:h-pro-pic-height overflow-hidden object-cover ml-navbar-item-margin md:mr-10 flex-shrink order-1 md:order-2"
+        className=" rounded-full w-[10rem] h-[10rem] my-[4rem] md:my-0 md:w-pro-pic-width md:h-pro-pic-height overflow-hidden object-cover ml-navbar-item-margin md:mr-10 flex-shrink order-1 md:order-2"
         data-aos="fade-left"
       >
         <img

@@ -7,7 +7,7 @@ const Projects = () => {
     AOS.init({ duration: 1200 });
   });
   return (
-    <div className="max-container min-h-[60vh] flex box-border flex-col items-center justify-top md:py-14 + px-8 py-6 ">
+    <div className="max-container min-h-[60vh] flex box-border flex-col items-center justify-top px-8 py-6 ">
       <p className="mt-4 mb-8 text-18px-48px font-medium" data-aos="fade-up">
         Latest 
         <span> </span>
