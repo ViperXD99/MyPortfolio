@@ -23,10 +23,10 @@ const Projects = () => {
             className=" flex flex-1 flex-col border border-gray-700 shadow-md shadow-slate-600 mt-4 rounded-xl overflow-hidden object-cover transition ease-in-out delay-150 hover:md:scale-110 hover:shadow-sky-500 duration-300 ... cursor-pointer"
           >
             <img
-              className=" w-full h-auto object-fill "
+              className=" w-full h-[15rem] object-fill "
               src={project.image}
             />
-            <div className="p-4">
+            <div className="p-4 text-center">
               <h1 className=" text-lg font-semibold text-slate-500 hover:text-sky-500">{project.title}</h1>
               <h1 className="py-4 text-sm text-gray-500">{project.description}</h1>
             </div>

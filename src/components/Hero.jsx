@@ -46,9 +46,9 @@ const Hero = () => {
             Contact Info
           </button>
         </div>
-        <div className="flex flex-row mt-line-margin gap-4 justify-center md:justify-start + ml-4">
+        <div className="flex flex-row mt-line-margin gap-4 md:gap-8 justify-center md:justify-start + ml-4">
           <div
-            className=" rounded-full w-[2rem] h-[2rem] overflow-hidden object-cover cursor-pointer"
+            className=" rounded-full w-[2rem] h-[2rem] bg-slate-200 overflow-hidden object-cover cursor-pointer hover:bg-sky-500"
             data-aos="fade-up"
           >
             <img
@@ -59,7 +59,7 @@ const Hero = () => {
             />
           </div>
           <div
-            className=" rounded-full w-[2rem] h-[2rem] overflow-hidden object-cover cursor-pointer"
+            className=" rounded-full w-[1.9rem] h-[1.9rem]  bg-slate-200 overflow-hidden object-cover cursor-pointer hover:bg-sky-500"
             data-aos="fade-up"
           >
             <img
