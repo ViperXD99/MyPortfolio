@@ -27,8 +27,8 @@ const Services = () => {
             key={service.key}
             className=" flex flex-1 mx-6 md:mx-0 flex-col p-4 border border-gray-500 bg-slate-900 mt-4 rounded-xl transition ease-in-out delay-150 hover:md:scale-110 hover:border-sky-500 duration-300 ... cursor-pointer "
           >
-            <p className="text-2xl animate-text bg-gradient-to-r from-slate-600 via-slate-400 to-sky-500  bg-clip-text text-transparent font-black text-center">{service.title}</p>
-            <p className="text-lg text-gray-500 mt-4 px-4 text-justify">{service.body}</p>
+            <p className=" text-xl md;text-2xl  animate-text bg-gradient-to-r from-slate-600 via-slate-400 to-sky-500  bg-clip-text text-transparent font-black text-center">{service.title}</p>
+            <p className="text-sm md:text-lg text-gray-500 mt-4 px-4 text-justify">{service.body}</p>
           </div>
         ))}
       </div>
