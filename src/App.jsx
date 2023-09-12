@@ -1,5 +1,5 @@
 import React, { useRef , useEffect } from "react";
-import { Navbar, Hero, Projects, Services } from "./components";
+import { Navbar, Hero, Projects, Services, ContactMe } from "./components";
 
 
 const App = () => {
@@ -27,8 +27,8 @@ const App = () => {
       <section ref={projectsRef} className="bg-slate-900 mt-6">
         <Projects/>
       </section>
-      <section ref={contactRef} className="py-20">
-        <p>contactRef</p>
+      <section ref={contactRef} className="bg-slate-900 mt-6">
+        <ContactMe/>
       </section>
     </main>
   );

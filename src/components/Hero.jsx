@@ -10,6 +10,15 @@ const Hero = () => {
   useEffect(() => {
     AOS.init({ duration: 1200 });
   });
+  const downloadPDF =()=>{
+    const pdfFilePath = import.meta.env.BASE_URL + "SandaruPerera.pdf"; // Replace with the actual path to your PDF file
+    const link = document.createElement("a");
+    link.href = pdfFilePath;
+    link.download = "Sandaru_Perera_CV.pdf"; // You can set the desired file name here
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   const handleImageClick = () => {
     // Navigate to the desired web page
     window.location.href = "https://github.com/ViperXD99";
@@ -36,7 +45,7 @@ const Hero = () => {
           <button
             className="p-3 border border-slate-100 rounded-[40px] hover:text-sky-500 hover:border-sky-500"
             data-aos="fade-right"
-          >
+          onClick={downloadPDF}>
             Download CV
           </button>
           <button
