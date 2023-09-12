@@ -28,7 +28,7 @@ const App = () => {
         <Projects/>
       </section>
       <section ref={contactRef} className="bg-slate-900 mt-6">
-        <ContactMe/>
+        <ContactMe />
       </section>
     </main>
   );

@@ -49,7 +49,7 @@ const Hero = () => {
             Download CV
           </button>
           <button
-            className="p-3 border border-black rounded-[40px]  font-semibold bg-black text-white hover:text-sky-500"
+            className="p-3 border border-slate-100 rounded-[40px] hover:text-sky-500 hover:border-sky-500"
             data-aos="fade-left"
           >
             Contact Info
