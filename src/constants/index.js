@@ -9,10 +9,10 @@ export const about = {
 };
 
 export const projects = [
-    {key: "1",title: "Home Service Mobile Application", description: "A mobile application implemented using KOTLIN and Firebase Realtime database with google authentication where a customer can hire service providers and purchase goods that needed to get completed their service via the application.", image:home_service, link:"https://github.com/ViperXD99/Home_Service_App"},
-    {key: "2",title: "Sales And Inventory Management System", description: "implemented using C# and SQL to manage sales and inventory of an agricultural company to manage their inventory and sales with invoices, GRN, deliveries and reports", image:inventory_system_png, link:"https://github.com/ViperXD99/SalesAndInventoryManagementSystem"},
-    {key: "3",title: "Medicare Web Application", description: "Implemented using JAVA Spring Boot REST API, MySQL, and React JS where patients can channel doctors according to their specialization, access their bookings by submitting the contact number and where doctors can handle their schedules, patients, and issue prescriptions through the system.", image:medicare, link:"https://github.com/ViperXD99/Medicare_and_E-ChannelingSystem"},
-    {key: "4",title: "Forex Journaling and Risk/Profit Management System", description: "Implemented using C# to journal trades and calculate profits based on popular currency pairs, manage risk, and keep a history of trades using details and screenshots of the relevant trades", image:forex, link:"https://github.com/ViperXD99/Home_Service_App"},
+    {key: "1",title: "Home Service Mobile Application", description: "A mobile application implemented using KOTLIN and Firebase Realtime database with google authentication where a customer can hire service providers and purchase goods that needed to get completed their service via the application.", image:home_service, link:"https://github.com/sandaruperera/Home_Service_App"},
+    {key: "2",title: "Sales And Inventory Management System", description: "implemented using C# and SQL to manage sales and inventory of an agricultural company to manage their inventory and sales with invoices, GRN, deliveries and reports", image:inventory_system_png, link:"https://github.com/sandaruperera/SalesAndInventoryManagementSystem"},
+    {key: "3",title: "Medicare Web Application", description: "Implemented using JAVA Spring Boot REST API, MySQL, and React JS where patients can channel doctors according to their specialization, access their bookings by submitting the contact number and where doctors can handle their schedules, patients, and issue prescriptions through the system.", image:medicare, link:"https://github.com/sandaruperera/Medicare_and_E-ChannelingSystem"},
+    {key: "4",title: "Forex Journaling and Risk/Profit Management System", description: "Implemented using C# to journal trades and calculate profits based on popular currency pairs, manage risk, and keep a history of trades using details and screenshots of the relevant trades", image:forex, link:"https://github.com/sandaruperera/Forex_Profit_Management_System"},
     
 ];
 
@@ -23,6 +23,6 @@ export const services = [
 ]
 
 export const contactOptions ={
-    linkedIn: "https://github.com/ViperXD99",
+    linkedIn: "https://www.linkedin.com/in/sandaru-perera-277668258/",
     email: "sandaruxd99@gmail.com"
 }
